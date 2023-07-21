@@ -1,0 +1,25 @@
+.home-wrapper {
+   background-color: #005377;
+   min-height: 80vh;
+   position: relative;
+   display: grid;
+   place-items: center;
+   padding: 100px 50px;
+}
+
+.hero-image {
+   position: absolute;
+   inset: 0;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   mix-blend-mode: multiply;
+   z-index: 0;
+}
+
+.hero-text > h1{
+   position:relative;
+   color: white;
+   z-index: 1;
+}
+

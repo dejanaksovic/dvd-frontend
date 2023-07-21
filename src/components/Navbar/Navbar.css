@@ -1,0 +1,24 @@
+.nav-container {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+   align-items: center;
+}
+
+.nav-logo {
+   min-height: 50px;
+   aspect-ratio: 1/1;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.links {
+   display: flex;
+   gap: 1rem;
+   font-weight: 600;
+}
+
+.links > *:hover {
+   color: #005377;
+}

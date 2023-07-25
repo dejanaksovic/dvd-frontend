@@ -1,9 +1,9 @@
 import "./Archive.css"
-import { logo } from "../../utils/images";
+import { logo, smotra, smotra2, smotra3, obuka, obuka2, intervencija, intervencija2 } from "../../utils/images";
 import { useState } from "react";
 
 const Archive = () => {
-   const images = [logo, logo, logo, logo, logo, logo]
+   const images = [logo, smotra, smotra2, smotra3, obuka, obuka2, intervencija, intervencija2]
    const [ desc, setDesc ] = useState("")
 
    return ( 
